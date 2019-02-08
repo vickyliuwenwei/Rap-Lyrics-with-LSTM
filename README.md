@@ -9,4 +9,4 @@ Feed artist specific rap lyrics into LSTM and generate artist specific songs cha
 Transform the text into vectors with numerical values. We use a vector of length 63 with 62 0’s and one 1 to represent the character.
 
 ## Model Tuning:
-Using LSTM model and feeding the model with 40 characters. Adding different layers, and different parameters for the learning rate, diveristy, and epoch.
+Using LSTM model and feeding the model with 40 characters. Adding different layers, and different parameters for the learning rate, diveristy, and epoch. With the size of data, AWS is used to train LSTM models and tune using grid search appraoch.
